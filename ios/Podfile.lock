@@ -1,0 +1,83 @@
+PODS:
+  - Alamofire (5.6.1)
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
+  - CryptoSwift (1.3.2)
+  - Flutter (1.0.0)
+  - lottie-ios (3.3.0)
+  - PayCardsRecognizer (1.1.7)
+  - payme_flutter_sdk (0.0.1):
+    - Flutter
+    - PayMESDK (= 0.9.55)
+  - PayMESDK (0.9.55):
+    - Alamofire
+    - CryptoSwift (= 1.3.2)
+    - lottie-ios
+    - PayCardsRecognizer
+    - RxCocoa
+    - RxSwift
+    - SVGKit
+    - SwiftyJSON
+    - SwiftyRSA (= 1.5)
+    - Toast-Swift (~> 5.0.1)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SVGKit (3.0.0):
+    - CocoaLumberjack (~> 3.0)
+  - SwiftyJSON (5.0.1)
+  - SwiftyRSA (1.5.0):
+    - SwiftyRSA/ObjC (= 1.5.0)
+  - SwiftyRSA/ObjC (1.5.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - payme_flutter_sdk (from `.symlinks/plugins/payme_flutter_sdk/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaLumberjack
+    - CryptoSwift
+    - lottie-ios
+    - PayCardsRecognizer
+    - PayMESDK
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SVGKit
+    - SwiftyJSON
+    - SwiftyRSA
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  payme_flutter_sdk:
+    :path: ".symlinks/plugins/payme_flutter_sdk/ios"
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  CryptoSwift: 093499be1a94b0cae36e6c26b70870668cb56060
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  PayCardsRecognizer: 2e4d1b2fdd5f1528fb56064a91e1d58a1af7a2db
+  payme_flutter_sdk: bfc656ef204c5a5927708c46e44ed5723fa18b7a
+  PayMESDK: b7217b1670112e336a75f549b5e43623f6d66ab3
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  SwiftyRSA: 6e528fb1b1a87d5111c48081083b141d6d65f1cf
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 7ca22259af8d3a12084bf66a4a1f8656e8f10b96
+
+COCOAPODS: 1.11.2
