@@ -120,7 +120,7 @@ Flutter mặc định sử dụng R8 (code shrinker) khi chạy lệnh build APK
 Thêm flag cho lệnh build: ```flutter build apk --no-shrink``` hoặc ```flutter build appbundle --no-shrink```
 - Nếu ứng dụng vẫn muốn dùng shrinker:
 
-Ở ```android/app/build.gradle```, set-up proguard cho bản build release:
+Ở ```android/app/build.gradle```, set-up proguard config cho bản build release:
 ```kotlin
   buildTypes {
         release {
@@ -128,7 +128,6 @@ Thêm flag cho lệnh build: ```flutter build apk --no-shrink``` hoặc ```flutt
             ...
             shrinkResources true
             minifyEnabled true
-            useProguard true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
